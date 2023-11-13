@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: #000;
+}
+
+html, body {
+  font-size: 62.5%;
+  font-family: "SpoqaHanSansNeo", sans-serif;
+}
+
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url(../../assets/fonts/SpoqaHanSansNeo-Light.woff) format("woff");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url(../../assets/fonts/SpoqaHanSansNeo-Regular.woff) format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url(../../assets/fonts/SpoqaHanSansNeo-Medium.woff) format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url(../../assets/fonts/SpoqaHanSansNeo-Bold.woff) format("woff");
+  font-weight: 700;
+}
