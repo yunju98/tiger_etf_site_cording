@@ -44,13 +44,14 @@ $(function () {
     ) {
       $(".find_etf_box").removeClass("active");
     }
+
     if (
       !$(".category_btn").is(e.target) &&
       $(".category_box").has(e.target).length === 0
     ) {
       $(".category_box").removeClass("active");
       $(".overlay2").removeClass("active");
-      overlayOff();
+      $(".overlay2").off("scroll touchmove mousewheel");
     }
   });
 
@@ -335,10 +336,12 @@ $(function () {
   $(".pages_box >button").click(() => {
     $(".homepage_box").addClass("active");
     overlayOn();
+    fixedBtnOff();
   });
   $(".pages_box .close_btn").click(() => {
     $(".homepage_box").removeClass("active");
     overlayOff();
+    fixedBtnOn();
   });
   $("footer .right >button").click(function () {
     if ($(this).hasClass("on")) {
