@@ -243,15 +243,6 @@ $(function () {
       }
       // ------------- tab_menu1 (E) --------------
     });
-    const mainTabSwiper = new Swiper(".main_tab1 .swiper", {
-      // Optional parameters
-      loop: true,
-
-      // If we need pagination
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
     // ------------- tab_menu2 (S) --------------
     $(".main_tab2 .tab_btn li").click(function () {
       // 클릭 가능한 상태일 때만 이벤트 처리
@@ -304,28 +295,40 @@ $(function () {
         isClickable = false;
       }
     });
-    $(".main_tab2 .months >span").click(() => {
-      if ($(".main_tab2 .title >li.active .months > ul").hasClass("active")) {
-        $(".main_tab2 .title >li.active .months > ul").removeClass("active");
-      } else {
-        $(".main_tab2 .title >li.active .months > ul").addClass("active");
-      }
+    $(".up_btn").click(() => {
+      $("html").animate({ scrollTop: 0 }, 500);
     });
-    $(".main_tab2 .months >ul >li").click(function () {
-      let tabIndex3 = $(this).index();
-      $(".main_tab2 .tab_content.active1 > ul")
-        .eq(tabIndex3)
-        .addClass("active")
-        .siblings()
-        .removeClass("active");
-    });
-    $(".main_tab2 .heart_btn").click(function () {
-      if ($(this).hasClass("on")) {
-        $(this).removeClass("on");
-      } else {
-        $(this).addClass("on");
-      }
-    });
+  });
+  const mainTabSwiper = new Swiper(".main_tab1 .swiper", {
+    // Optional parameters
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+  $(".main_tab2 .months >span").click(() => {
+    if ($(".main_tab2 .title >li.active .months > ul").hasClass("active")) {
+      $(".main_tab2 .title >li.active .months > ul").removeClass("active");
+    } else {
+      $(".main_tab2 .title >li.active .months > ul").addClass("active");
+    }
+  });
+  $(".main_tab2 .months >ul >li").click(function () {
+    let tabIndex3 = $(this).index();
+    $(".main_tab2 .tab_content.active1 > ul")
+      .eq(tabIndex3)
+      .addClass("active")
+      .siblings()
+      .removeClass("active");
+  });
+  $(".main_tab2 .heart_btn").click(function () {
+    if ($(this).hasClass("on")) {
+      $(this).removeClass("on");
+    } else {
+      $(this).addClass("on");
+    }
   });
   // ------------- tab_menu2 (E) --------------
   // ------------- footer_popup (S) --------------
@@ -348,3 +351,21 @@ $(function () {
   });
   // ------------- footer_popup (E) --------------
 });
+$(window).scroll(function () {
+  if ($(this).scrollTop() <= 50) {
+    $(".up_btn").removeClass("is-up");
+  } else {
+    $(".up_btn").addClass("is-up");
+  }
+});
+$(window).scroll(function () {
+  if ($(this).scrollTop() <= 2200) {
+    $(".fixed_box").removeClass("on");
+  } else {
+    $(".fixed_box").addClass("on");
+  }
+});
+// $(window).scroll(function () {
+//   var scrollValue = $(document).scrollTop();
+//   console.log(scrollValue);
+// });
