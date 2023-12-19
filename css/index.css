@@ -39,7 +39,7 @@ header {
   height: 100px;
   background-color: #fff;
   border-bottom: 1px solid #ff6300;
-  z-index: 1000;
+  z-index: 2000;
 }
 header .inner {
   display: flex;
@@ -199,9 +199,9 @@ header .inner nav .nav_btn_box .find_etf .find_etf_box {
   visibility: hidden;
   transition: all 0.3s;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-  z-index: -100;
 }
 header .inner nav .nav_btn_box .find_etf .find_etf_box .menu_tab {
+  display: none;
   padding-right: 30px;
   border-right: 1px solid #e0e0e0;
 }
@@ -231,6 +231,7 @@ header .inner nav .nav_btn_box .find_etf .find_etf_box .menu_tab .find_depth1 > 
   background-image: url(../../assets/img/page-next-on.svg);
 }
 header .inner nav .nav_btn_box .find_etf .find_etf_box .menu_depth2 {
+  display: none;
   padding: 0 30px;
   border-right: 1px solid #e0e0e0;
   width: 380px;
@@ -269,6 +270,7 @@ header .inner nav .nav_btn_box .find_etf .find_etf_box .menu_depth2 > .active {
   display: block;
 }
 header .inner nav .nav_btn_box .find_etf .find_etf_box .menu_depth3 {
+  display: none;
   padding-left: 30px;
   width: 340px;
   height: 657px;
@@ -343,7 +345,15 @@ header .inner nav .nav_btn_box .find_etf > .active {
   top: 70px;
   opacity: 1;
   visibility: visible;
-  z-index: 100;
+}
+header .inner nav .nav_btn_box .find_etf > .active .menu_tab {
+  display: block;
+}
+header .inner nav .nav_btn_box .find_etf > .active .menu_depth2 {
+  display: block;
+}
+header .inner nav .nav_btn_box .find_etf > .active .menu_depth3 {
+  display: block;
 }
 header .inner nav .nav_btn_box .search_box .search_btn {
   width: 24px;
@@ -367,7 +377,7 @@ header .inner nav .nav_btn_box .search_box > div {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
-  z-index: 200;
+  z-index: 2000;
 }
 header .inner nav .nav_btn_box .search_box > div h2 img {
   height: 22px;
@@ -485,6 +495,9 @@ header .inner nav .nav_btn_box .language_menu > ul li:first-child {
 header .inner nav .nav_btn_box .language_menu:hover > ul {
   top: 50px;
   opacity: 1;
+}
+header .inner nav .nav_btn_box .all_menu {
+  z-index: 2000;
 }
 header .inner nav .nav_btn_box .all_menu .hamberger_btn {
   position: relative;
@@ -2029,7 +2042,7 @@ footer > .on {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2000;
+  z-index: 1000;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
