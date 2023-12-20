@@ -1,15 +1,17 @@
 $(function () {
   const overlayOn = () => {
-    $(".overlay").on("scroll touchmove mousewheel", function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
-    });
+    // $(".overlay").on("scroll touchmove mousewheel", function (e) {
+    //   e.preventDefault();
+    //   e.stopPropagation();
+    //   return false;
+    // });
     $(".overlay").addClass("active");
+    $("body").addClass("off");
   };
   const overlayOff = () => {
-    $(".overlay").off("scroll touchmove mousewheel");
+    // $(".overlay").off("scroll touchmove mousewheel");
     $(".overlay").removeClass("active");
+    $("body").removeClass("off");
   };
   const hambergerOn = () => {
     $(".hamberger_btn").addClass("on");

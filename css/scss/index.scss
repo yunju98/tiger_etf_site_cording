@@ -1489,7 +1489,7 @@ main{
           width: 1770px;
           height: 45px;
           margin: 30px auto 50px;
-          z-index: 100;
+          z-index: 1000;
           >li{
             position: absolute;
             top: 80px;
@@ -1810,6 +1810,7 @@ main{
           > .active2{
             opacity: 1;
             visibility: visible;
+            z-index: 500;
             >ul{
               top: 0;
               opacity: 1;
@@ -2133,3 +2134,7 @@ footer{
     visibility: visible;
     transform: translateY(0);
   }
+.off{
+  height: 100vh;
+  overflow: hidden;
+}

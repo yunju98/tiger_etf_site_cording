@@ -1433,7 +1433,7 @@ main .inner section .main_tab2 .title {
   width: 1770px;
   height: 45px;
   margin: 30px auto 50px;
-  z-index: 100;
+  z-index: 1000;
 }
 main .inner section .main_tab2 .title > li {
   position: absolute;
@@ -1753,6 +1753,7 @@ main .inner section .main_tab2 .content > .active1 > ul {
 main .inner section .main_tab2 .content > .active2 {
   opacity: 1;
   visibility: visible;
+  z-index: 500;
 }
 main .inner section .main_tab2 .content > .active2 > ul {
   top: 0;
@@ -2056,4 +2057,9 @@ footer > .on {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+.off {
+  height: 100vh;
+  overflow: hidden;
 }
