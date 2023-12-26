@@ -73,7 +73,7 @@ header{
                 right: 0;
                 width: 16px;
                 height: 16px;
-                background: url(../../assets/img/3depth-ico.svg) no-repeat center/16px;
+                background: url(../assets/img/3depth-ico.svg) no-repeat center/16px;
                 transition: all .3s;
               }
               .nav_depth3{
@@ -107,7 +107,7 @@ header{
                   color: #e37500;
                 }
                 .arr::after{
-                  background-image: url(../../assets/img/3depth-ico-on.svg);
+                  background-image: url(../assets/img/3depth-ico-on.svg);
                 }
                 .nav_depth3{
                   top: 0;
@@ -191,13 +191,13 @@ header{
                     right: 0;
                     width: 16px;
                     height: 16px;
-                    background: url(../../assets/img/page-next.svg) no-repeat center/16px;
+                    background: url(../assets/img/page-next.svg) no-repeat center/16px;
                   }
                 }
                 >.active{
                   color: #e37500;
                   &::after{
-                    background-image: url(../../assets/img/page-next-on.svg);
+                    background-image: url(../assets/img/page-next-on.svg);
                   }
                 }
               }
@@ -225,14 +225,14 @@ header{
                     right: 0;
                     width: 16px;
                     height: 16px;
-                    background: url(../../assets/img/page-next.svg) no-repeat center/16px;
+                    background: url(../assets/img/page-next.svg) no-repeat center/16px;
                     opacity: 0.5;
                   }
                 }
                 >.active{
                   color: #e37500;
                   &::after{
-                    background-image: url(../../assets/img/page-next-on.svg);
+                    background-image: url(../assets/img/page-next-on.svg);
                     opacity: 1;
                   }
                 }
@@ -311,7 +311,7 @@ header{
               font-size: 1.4rem;
               font-weight: 400;
               color: #757575;
-              background: url(../../assets/img/clock-ico.png) no-repeat left top/20px;
+              background: url(../assets/img/clock-ico.png) no-repeat left top/20px;
             }
           }
             > .active{
@@ -336,7 +336,7 @@ header{
             width: 24px;
             height: 24px;
             margin-right: 24px;
-            background: transparent url(../../assets/img/icon_header_search.svg) no-repeat center/24px;
+            background: transparent url(../assets/img/icon_header_search.svg) no-repeat center/24px;
             border: none;
             cursor: pointer;
           }
@@ -400,7 +400,7 @@ header{
                     right: 0;
                     width: 48px;
                     height: 48px;
-                    background: transparent url(../../assets/img/icon_search_orange_36.svg) no-repeat center;
+                    background: transparent url(../assets/img/icon_search_orange_36.svg) no-repeat center;
                     border: none;
                   }
                 }
@@ -436,7 +436,7 @@ header{
           width: 24px;
           height: 24px;
           margin-right: 24px;
-          background: url(../../assets/img/icon_header_member.svg) no-repeat center/24px;
+          background: url(../assets/img/icon_header_member.svg) no-repeat center/24px;
         }
         .language_menu{
           position: relative;
@@ -444,7 +444,7 @@ header{
             width: 24px;
             height: 50px;
             margin-right: 24px;
-            background: transparent url(../../assets/img/icon_header_global.svg) no-repeat center/24px;
+            background: transparent url(../assets/img/icon_header_global.svg) no-repeat center/24px;
             border: none;
             cursor: pointer;
           }
@@ -712,7 +712,7 @@ header{
                       right: 48px;
                       width: 48px;
                       height: 48px;
-                      background: url(../../assets/img/icon_search_orange_36.svg) no-repeat center;
+                      background: url(../assets/img/icon_search_orange_36.svg) no-repeat center;
                       border: none;
                       cursor: pointer;
                     }
@@ -723,7 +723,7 @@ header{
                       right: 0;
                       width: 48px;
                       height: 48px;
-                      background: url(../../assets/img/icon_category_orange_36.png) no-repeat center;
+                      background: url(../assets/img/icon_category_orange_36.png) no-repeat center;
                       border: none;
                       cursor: pointer;
                     }
@@ -849,7 +849,7 @@ header{
                     right: 42px;
                     width: 36px;
                     height: 36px;
-                    background: url(../../assets/img/icon_pop_close_black.svg) no-repeat center/36px;
+                    background: url(../assets/img/icon_pop_close_black.svg) no-repeat center/36px;
                     border: none;
                     cursor: pointer;
                   }
@@ -899,7 +899,7 @@ main{
       //------------- scroll slider (S) --------------
       .scroll_slider{
         padding: 90px 0;
-        background: url(../../assets/img/sec1-scroll-ico.gif) no-repeat bottom 60px center;
+        background: url(../assets/img/sec1-scroll-ico.gif) no-repeat bottom 60px center;
         >.swiper{
           padding: 90px;
           .swiper-slide{
@@ -970,7 +970,7 @@ main{
                   right: 22px;
                   width: 32px;
                   height: 32px;
-                  background: url(../../assets/img/srch-ico.svg) no-repeat center/32px;
+                  background: url(../assets/img/srch-ico.svg) no-repeat center/32px;
                   border: none;
                 }
               }
@@ -1010,84 +1010,84 @@ main{
               }
               .search_theme_item01{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu1.svg);
+                  background-image: url(../assets/img/key-ico-illu1.svg);
                 }
               }
               .search_theme_item02{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu2.svg);
+                  background-image: url(../assets/img/key-ico-illu2.svg);
                 }
               }
               .search_theme_item03{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu3.svg);
+                  background-image: url(../assets/img/key-ico-illu3.svg);
                 }
               }
               .search_theme_item04{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu4.svg);
+                  background-image: url(../assets/img/key-ico-illu4.svg);
                 }
               }
               .search_theme_item05{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu5.svg);
+                  background-image: url(../assets/img/key-ico-illu5.svg);
                 }
               }
               .search_theme_item06{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu6.svg);
+                  background-image: url(../assets/img/key-ico-illu6.svg);
                 }
               }
               .search_theme_item07{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu7.svg);
+                  background-image: url(../assets/img/key-ico-illu7.svg);
                 }
               }
               .search_theme_item08{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu8.svg);
+                  background-image: url(../assets/img/key-ico-illu8.svg);
                 }
               }
               .search_theme_item09{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu9.svg);
+                  background-image: url(../assets/img/key-ico-illu9.svg);
                 }
               }
               .search_theme_item10{
                 &::before{
-                  background-image: url(../../assets/img/key-ico-illu10.svg);
+                  background-image: url(../assets/img/key-ico-illu10.svg);
                 }
               }
             }
           }
           .scroll_card_item01{
             >a{
-              background-image: url(../../assets/img/20230831063922015873.png);
+              background-image: url(../assets/img/20230831063922015873.png);
             }
           }
           .scroll_card_item02{
             >a{
-              background-image: url(../../assets/img/20230831063930017168.png);
+              background-image: url(../assets/img/20230831063930017168.png);
             }
           }
           .scroll_card_item03{
             >a{
-              background-image: url(../../assets/img/20230915034906020947.png);
+              background-image: url(../assets/img/20230915034906020947.png);
             }
           }
           .scroll_card_item04{
             >a{
-              background-image: url(../../assets/img/20230915034915027614.png);
+              background-image: url(../assets/img/20230915034915027614.png);
             }
           }
           .scroll_card_item05{
             >a{
-              background-image: url(../../assets/img/20231006024252007096.png);
+              background-image: url(../assets/img/20231006024252007096.png);
             }
           }
           .scroll_card_item06{
             >a{
-              background-image: url(../../assets/img/20231016102740007877.png);
+              background-image: url(../assets/img/20231016102740007877.png);
             }
           }
         }
@@ -1112,10 +1112,10 @@ main{
             transition: all 1s;     
           }
           .tab1_bg{
-            background-image: url(../../assets/img/sec2-bg1.png);
+            background-image: url(../assets/img/sec2-bg1.png);
           }
           .tab2_bg{
-            background-image: url(../../assets/img/sec2-bg2.png);
+            background-image: url(../assets/img/sec2-bg2.png);
           }
           > .active{
             opacity: 1;
@@ -1516,7 +1516,7 @@ main{
                 font-size: 2.4rem;
                 color: #001b3c;
                 line-height: 34px;
-                background: #ffede4 url(../../assets/img/cust-select-poli.png) no-repeat right 10px center;
+                background: #ffede4 url(../assets/img/cust-select-poli.png) no-repeat right 10px center;
                 border-radius: 10px;
                 cursor: pointer;
                 }
@@ -1573,7 +1573,7 @@ main{
               font-size: 1.5rem;
               font-weight: 500;
               color: #949494;
-              background: url(../../assets/img/clock-ico.png) no-repeat 0 center / 19px;
+              background: url(../assets/img/clock-ico.png) no-repeat 0 center / 19px;
               line-height: 24px;
             }
           }
@@ -1691,7 +1691,7 @@ main{
                   right: 40px;
                   width: 24px;
                   height: 24px;
-                  background: transparent url(../../assets/img/icon_like_gray_24.svg) no-repeat center;
+                  background: transparent url(../assets/img/icon_like_gray_24.svg) no-repeat center;
                   border: none;
                   cursor: pointer;
                 }
@@ -1699,7 +1699,7 @@ main{
                   z-index: 1000;
                 }
                 .on{
-                  background-image: url(../../assets/img/icon_like_orange_24.svg);
+                  background-image: url(../assets/img/icon_like_orange_24.svg);
                 }
               }
             }
@@ -1712,7 +1712,7 @@ main{
               font-size: 1.6rem;
               font-weight: 500;
               color: #5e5e5e;
-              background: url(../../assets/img/link-ico.png) no-repeat right center/24px;
+              background: url(../assets/img/link-ico.png) no-repeat right center/24px;
               transform: translatex(-50%);
             }
             > .active{
@@ -1775,12 +1775,12 @@ main{
                   right: 40px;
                   width: 24px;
                   height: 24px;
-                  background: transparent url(../../assets/img/icon_like_gray_24.svg) no-repeat center;
+                  background: transparent url(../assets/img/icon_like_gray_24.svg) no-repeat center;
                   border: none;
                   cursor: pointer;
                 }
                 .on{
-                  background-image: url(../../assets/img/icon_like_orange_24.svg);
+                  background-image: url(../assets/img/icon_like_orange_24.svg);
                 }
               }
             }
@@ -1793,7 +1793,7 @@ main{
               font-size: 1.6rem;
               font-weight: 500;
               color: #5e5e5e;
-              background: url(../../assets/img/link-ico.png) no-repeat right center/24px;
+              background: url(../assets/img/link-ico.png) no-repeat right center/24px;
               transform: translatex(-50%);
             }
           }
@@ -1851,19 +1851,19 @@ footer{
             background: no-repeat center;
           }
           .wia{
-            background-image: url(../../assets/img/icon_footer_sns_wia.png);
+            background-image: url(../assets/img/icon_footer_sns_wia.png);
           }
           .facebook{
-            background-image: url(../../assets/img/icon_footer_sns_facebook.png);
+            background-image: url(../assets/img/icon_footer_sns_facebook.png);
           }
           .insta{
-            background-image: url(../../assets/img/icon_footer_sns_instagram.png);
+            background-image: url(../assets/img/icon_footer_sns_instagram.png);
           }
           .blog{
-            background-image: url(../../assets/img/icon_footer_sns_naverblog.png);
+            background-image: url(../assets/img/icon_footer_sns_naverblog.png);
           }
           .yotube{
-            background-image: url(../../assets/img/icon_footer_sns_youtube.png);
+            background-image: url(../assets/img/icon_footer_sns_youtube.png);
           }
         }
         .pages_box{
@@ -1918,7 +1918,7 @@ footer{
                   font-size: 1.8rem;
                   font-weight: 500;
                   color: #fff;
-                  background: #e37500 url(../../assets/img/icon_arrow_white_24.png) no-repeat right 20px center;
+                  background: #e37500 url(../assets/img/icon_arrow_white_24.png) no-repeat right 20px center;
                   line-height: 60px;
                 }
               }
@@ -1942,7 +1942,7 @@ footer{
               right: 42px;
               width: 36px;
               height: 36px;
-              background: transparent url(../../assets/img/icon_pop_close_black.svg) no-repeat center/36px;
+              background: transparent url(../assets/img/icon_pop_close_black.svg) no-repeat center/36px;
               border: none;
               cursor: pointer;
             }
@@ -2029,14 +2029,14 @@ footer{
             right: 0;
             width: 16px;
             height: 16px;
-            background: url(../../assets/img/footer-arrow-ico.png) no-repeat center/contain;
+            background: url(../assets/img/footer-arrow-ico.png) no-repeat center/contain;
           }
         }
         .on{
           color: #e37500;
           &::after{
             transform: rotate(180deg), translateX(-50%);
-            background-image: url(../../assets/img/footer-arrow-ico-on.png);
+            background-image: url(../assets/img/footer-arrow-ico-on.png);
           }
         }
         .global_etfs{
@@ -2092,13 +2092,13 @@ footer{
       cursor: pointer;
     }
     .up_btn{
-      background-image: url(../../assets/img/top-ico.svg) ;
+      background-image: url(../assets/img/top-ico.svg) ;
       transition: all .3s;
       visibility: hidden;
       opacity: 0;
     }
     .orange_brn{
-      background-image: url(../../assets/img/fab-ico.svg);
+      background-image: url(../assets/img/fab-ico.svg);
     }
     >.is-up{
       opacity: 1;
